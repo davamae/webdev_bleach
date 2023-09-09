@@ -14,30 +14,47 @@
         background-size: contain;
         background-position: right;
       }
+
+      .flex-container {
+        display: flex;
+      }
+      .flex-container > div {
+        margin: 20px;
+        padding: 30px;
+      }
     </style>
   </head>
   <body>
     <h1>Bleach</h1>
 
-    <div
-      id="first_textbox"
-      style="
-        height: 400px;
-        width: 300px;
-        margin-left: 30px;
-        border: 2px solid #fff;
-        font: 16px/26px Georgia, Garamond, Serif;
-        overflow: auto;
-      "
-    >
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-      <p>Lorem ipsum?</p>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas ex
-        repellat, autem et cum sed, quos similique minus necessitatibus
-        blanditiis esse cumque ratione quaerat, eos aliquam soluta numquam
-        laborum voluptatibus!
-      </p>
+    <div class="flex-container">
+      <div
+        id="first_textbox"
+        style="
+          height: 400px;
+          width: 300px;
+          margin-left: 30px;
+          border: 2px solid #fff;
+          font: 16px/26px Georgia, Garamond, Serif;
+          overflow: auto;
+        "
+      >
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum?</p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas ex
+          repellat, autem et cum sed, quos similique minus necessitatibus
+          blanditiis esse cumque ratione quaerat, eos aliquam soluta numquam
+          laborum voluptatibus!
+        </p>
+      </div>
+      <div>
+        <img
+          src="Images/rukia3.png"
+          alt="rukia_wall3"
+          style="width: fit-content; height: fit-content"
+        />
+      </div>
     </div>
 
     <div

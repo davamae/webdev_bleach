@@ -13,4 +13,5 @@ p {
 img {
   /* transform: rotateY(180deg); */
   border-style: solid;
+  margin-inline-end: auto;
 }
