@@ -5,3 +5,12 @@ h1 {
 p {
   font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#fig {
+  font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  /* transform: rotateY(180deg); */
+  border-style: solid;
+}
